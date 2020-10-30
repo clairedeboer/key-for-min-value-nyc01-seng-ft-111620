@@ -2,7 +2,7 @@
 # Given a hash with numeric values, return the key for the smallest value
 
 def key_for_min_value(name_hash)
-  return nil if name_hash.empty
+  return nil if name_hash.empty? 
   # min_value = 100
   # min_key = ""
   array = name_hash.to_a
